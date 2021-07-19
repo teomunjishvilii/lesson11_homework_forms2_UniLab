@@ -137,7 +137,7 @@
     }
 
     .paragraph1 {
-        width: 300px;
+        max-width: 300px;
         font-size: 23px;
         margin-bottom: 30px;
         margin-left: 100px;
@@ -192,20 +192,15 @@
     }
 }
 
-@media (max-width: 530px) {
-    .time {
-        margin-left: 100px;
-    }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 520px) {
     .image_text {
-        margin-left: 150px;
+        margin-left: 130px;
     }
 }
 
-@media (max-width: 320px) {
-    footer {
-        width: 100%;
+@media (max-width: 435px) {
+    .section2 {
+        margin-left: -80px;
     }
 }
+
