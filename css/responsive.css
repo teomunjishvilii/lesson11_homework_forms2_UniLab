@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 @media (max-width: 1185px) {
     .container {
         max-width: 1000px;
@@ -105,7 +112,10 @@
     }
 
     .section1 {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
         margin-top: 80px;
     }
 
@@ -133,7 +143,10 @@
     .section2 {
         width: 100%;
         margin-top: 300px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 
     .paragraph1 {
@@ -155,8 +168,13 @@
     }
 
     .footer {
-        flex-direction: column;
-        align-items: center;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
     }
 
     footer {
@@ -175,14 +193,18 @@
 
     .footer_div5 input {
         width: 240px;
-        transform: translateX(-25%);
+        -webkit-transform: translateX(-25%);
+            -ms-transform: translateX(-25%);
+                transform: translateX(-25%);
         margin-top: 30px;
     }
 
     .footer_div5 label {
         width: 240px;
         font-size: 15px;
-        transform: translateX(-25%);
+        -webkit-transform: translateX(-25%);
+            -ms-transform: translateX(-25%);
+                transform: translateX(-25%);
         text-align: center;
     }
 
@@ -203,4 +225,3 @@
         margin-left: -80px;
     }
 }
-

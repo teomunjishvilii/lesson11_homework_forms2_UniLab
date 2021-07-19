@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body {
     background-color: #f6f8f9;
 }
@@ -13,6 +20,8 @@ body {
     height: 500px;
     margin: 0 auto;
     margin-top: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -25,7 +34,9 @@ body {
     position: absolute;
     top: 40%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 .image_h3 {
@@ -33,9 +44,6 @@ body {
     line-height: 42px;
     color: #ffffff;
     text-align: center;
-    /* border-bottom: 2px solid #fa6980; */
-    
-    /* font-family: "Helvetica"; */
 }
 
 .pink_line {
@@ -52,7 +60,6 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #ffffff;
-    /* font-family: "Helvetica"; */
     text-align: center;
 }
 
@@ -62,7 +69,9 @@ body {
     margin-top: 40px;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+            transform: translateX(-50%);
 }
 
 .forms_block {
@@ -73,12 +82,19 @@ body {
 }
 
 .forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
 }
 
 label {
@@ -87,7 +103,6 @@ label {
     line-height: 20px;
     color: #202124;
     font-weight: bold;
-    /* font-family: "Acumin Pro"; */
 }
 
 input, select {
@@ -101,7 +116,6 @@ select {
     font-size: 13px;
     line-height: 20px;
     color: #a6adb4; 
-    /* font-family: "Helvetica"; */
 }
 
 button {
@@ -116,8 +130,12 @@ button {
 /* Section 2 */
 .section2 {
     margin-top: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     border-top: 2px solid #ebeded;
     margin-top: 40px;
     margin-bottom: 42px;
@@ -135,7 +153,6 @@ button {
     color: #202124;
     font-weight: bold;
     margin-top: 20px;
-    /* font-family: "Acumin Pro"; */
 }
 
 .second_div {
@@ -147,7 +164,6 @@ button {
     font-size: 14px;
     line-height: 26px;
     color: #a6adb4;
-    /* font-family: "Helvetica"; */
 }
 
 .third_div {
@@ -155,6 +171,8 @@ button {
 }
 
 .time {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 13px;
     color: #a6adb4;
@@ -174,8 +192,12 @@ footer {
 }
 
 .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding-top: 58px;
 }
 
@@ -190,13 +212,17 @@ footer {
     font-size: 13px;
     line-height: 20px;
     color: #cbd0d3;
-    /* font-family: "Helvetica"; */
 }
 
 .footer_div5 {
     width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 }
 
 .footer_div5 input {
@@ -212,13 +238,16 @@ footer {
     font-size: 12px;
     line-height: 20px;
     color: #cbd0d3;
-    /* font-family: "Helvetica"; */
 }
 
 .soc_media {
     width: 30%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     width: 120px;
 }
 
